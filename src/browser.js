@@ -119,7 +119,10 @@ var browser = (function() { "use strict"; var _ = {
 				['mac',			/Macintosh.+Mac OS X ([0-9_]+)/,	function(v) { return v.replace('_', '.').replace('_', ''); }],
 				['windows',		/Windows NT ([0-9\.]+)/,			null],
 				['bb',			/BlackBerry.+Version\/([0-9\.]+)/,	null],
-				['bb',			/BB[0-9]+.+Version\/([0-9\.]+)/,	null]
+				['bb',			/BB[0-9]+.+Version\/([0-9\.]+)/,	null],
+				['linux',		/Linux/,							null],
+				['bsd',			/BSD/,								null],
+				['unix',		/X11/,								null],
 			];
 
 			for (i=0; i < a.length; i++) {
