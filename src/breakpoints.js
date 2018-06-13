@@ -1,4 +1,4 @@
-/* breakpoints.js v0.1-dev | @ajlkn | MIT licensed */
+/* breakpoints.js v1.0 | @ajlkn | MIT licensed */
 
 var breakpoints = (function() { "use strict"; var _ = {
 

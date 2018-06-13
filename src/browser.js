@@ -1,4 +1,4 @@
-/* browser.js v0.1-dev | @ajlkn | MIT licensed */
+/* browser.js v1.0 | @ajlkn | MIT licensed */
 
 var browser = (function() { "use strict"; var _ = {
 
