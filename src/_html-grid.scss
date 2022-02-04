@@ -102,12 +102,15 @@
 							order: -1;
 						}
 
-					// Columns, offsets.
+					// Columns.
 						@for $i from 1 through $cols {
 							> .col-#{$i}#{$suffix} {
 								width: $unit * $i;
 							}
-
+						}
+						
+					// Offsets need to include a 0 so responsive layouts can override a default offset on smaller devices.
+						@for $i from 0 through $cols {
 							> .off-#{$i}#{$suffix} {
 								margin-left: $unit * $i;
 							}
